@@ -5,9 +5,9 @@ from deeppavlov.dataset_readers.hallucination_detection_reader import Hallucinat
 
 rs = []
 for path in [
-    "deeppavlov/configs/hallucination_detection/ragtruth_modernbert_large.json",
-    "deeppavlov/configs/hallucination_detection/ragtruth_modernbert_base.json",
-    "deeppavlov/configs/hallucination_detection/ragtruth_deberta_small.json",
+    "deeppavlov/configs/hallucination_detection/ragtruth_mdeberta_base.json",
+    # "deeppavlov/configs/hallucination_detection/ragtruth_modernbert_base.json",
+    # "deeppavlov/configs/hallucination_detection/ragtruth_deberta_small.json",
 ]:
     config = read_json(path)
     
